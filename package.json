@@ -1,0 +1,33 @@
+{
+  "name": "mintic-gestionproyectos-ts",
+  "version": "1.0.0",
+  "description": "Gestion de proyectos de una universidad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "gestiosn",
+    "proyectos"
+  ],
+  "author": "Cristian Parra",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
