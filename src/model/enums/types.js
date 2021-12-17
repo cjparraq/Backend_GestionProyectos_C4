@@ -2,7 +2,7 @@ import { gql } from 'apollo-server-express';
 
 const EnumsTypes = gql`
   enum Enum_StateUser {
-    EARRING
+    PENDING
     AUTHORIZED
     NO_AUTHORIZED
   }
