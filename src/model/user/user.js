@@ -39,8 +39,8 @@ const userSchema = new Schema({
 },
   state: {
     type: String,
-    enum: ['EARRING', 'AUTHORIZED', 'NO_AUTHORIZED'],
-    default: 'EARRING',
+    enum: ['PENDING', 'AUTHORIZED', 'NO_AUTHORIZED'],
+    default: 'PENDING',
 }
 });
 

@@ -17,8 +17,8 @@ const inscriptionSchema = new Schema({
   state: [
     {
       type: String,
-      enum: ['ACCEPTED', 'REJECTED', 'EARRING'],
-      default: 'EARRING',
+      enum: ['ACCEPTED', 'REJECTED', 'PENDING'],
+      default: 'PENDING',
       required: true,
     }
   ],
